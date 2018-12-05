@@ -9,16 +9,19 @@
 
 	</head>
 
-	<body class="contact-page">
+	<body class="contact-page sub-page">
 
-		<?php include 'inc/nav.php'; ?>
+		<?php 
+			$page = 'contact';
+			include 'inc/nav.php';
+		?>
 
 		<div class="container" id="contact">
 		
 		<main>
 			<h1>Contact</h1>
-			<p class="home-page-link"><a href="index.php">Home</a></p>
-			<div class="contact-form">
+
+			<div class="contact-form white-bg">
 				<form action="contactform.php" method="post">
 					<p><input type="text" name="name" placeholder="Full name" class="form-element"></p>
 					<p><input type="text" name="mail" placeholder="Your email" class="form-element"></p>
@@ -26,8 +29,12 @@
 					<p><textarea name="message" placeholder="Message" class="form-element"></textarea></p>
 					<p><button type="submit" name="submit">Send</button></p>
 				</form>
-			</div>
+			</div><!-- .contact-form -->
+
 		</main>
+
 		</div><!-- .container #contact -->
+
 	</body>
+
 </html>

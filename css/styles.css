@@ -9,16 +9,18 @@ body {
 
 nav ul {
 	list-style-type: none;
-	/* text-align: right; */
-	/* position: fixed; */
-	/* width: 100%; */
 	margin: 5px 5px 0px 0px;
 }
 
 nav li {
 	display: inline;
 	margin: 0;
-	padding: 0;
+	padding: .5em;
+}
+
+nav .active {
+	color: #00787a; /* This is not currently reflected on the page */
+	font-weight: bold;
 }
 
 nav img {
@@ -35,8 +37,8 @@ nav a {
 
 a {
 	color: black;
-/*	text-decoration: none;
-	font-style: italic;*/
+	text-decoration: underline;
+/* font-style: italic;*/
 }
 
 textarea {
@@ -46,7 +48,7 @@ textarea {
 
 input, textarea {
 	outline: none; /* You can change this for a more intense border color */
-	border: 1px solid #7788c7;
+	border: 1px solid #00787a;
 }
 
 input:focus, textarea:focus {
@@ -66,15 +68,20 @@ table {
 	width: 100%;
 }
 
-.blog-page, .contact-page {
-	background-color: #afb9de;
+.sub-page {
+	background-color: #00787a;
 }
 
-.blog-page h1, .contact-page h1 {
+.sub-page h1 {
 	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-size: 6em;
+	font-family: 'Poiret One', sans-serif;
 }
 
-.blog-post, .contact-form {
+.white-bg {
 	margin-top: 10px;
 	padding: 20px;
 	border-radius: 10px;
@@ -82,14 +89,21 @@ table {
 	background-color: white;
 }
 
-.blog-post h2 {
-	font-size: 3em;
+.white-bg h2 {
+	font-size: 3.5em;
+	font-family: 'Sacramento', sans-serif;
 	border-bottom: 1px solid black;
 	margin-bottom: 10px;
 	margin-top: 20px;
 }
 
-.blog-page .home-page-link, .contact-page .home-page-link, .notice {
+.white-bg h3 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 2.5em;
+	/* margin-top: 1em; */
+}
+
+.sub-page .home-page-link, .home-page-link, .notice {
 	text-align: center;
 }
 
@@ -139,24 +153,14 @@ table {
 }
 
 .img-bg {
+	background-color: #00787a;
 	background-image: url("../img/profile3.jpg");
 	height: 100%;
 
-	/* create parallax scrolling effect */
+	/* create parallax scrolling effect */ 
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.portfolio-img-bg {
-	background: url("../img/sky.jpg") no-repeat center center fixed;
-	height: 100%;
-
-	/* create parallax scrolling effect */
-/*	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;*/
-	background-size: cover;
+	background-size: cover; 
 }
 
 .portfolio-h2 {
@@ -218,7 +222,7 @@ table {
 	color: white;
 }
 
-#title h1, #blog h1, #contact h1 {
+#title h1 {
 	margin: 0;
 	padding: 0;
 	font-size: 6em;
@@ -241,12 +245,6 @@ table {
 #resources li {
 	display: inline;
 	padding: 5px;
-}
-
-#portfolio-h1 {
-	font-size: 5em;
-	font-family: 'Poiret One', sans-serif;
-	text-align: center;
 }
 
 .subp #portfolio-h1 {

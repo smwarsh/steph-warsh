@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="Steph Warsh's blog. Currently limited to one text post about 100 Days of Code" />
+		<meta name="description" content="Steph Warsh's blog. Currently limited to two text posts about 100 Days of Code" />
 		<meta name="keywords" content="Steph, Warsh, New, York, Digital, Website, Design, Development, Coding, Programming, 100DaysOfCode" />
 		<meta name="author" content="Steph Warsh" />
 		
@@ -11,16 +11,18 @@
 	
 	</head>
 
-	<body class="blog-page">
+	<body class="blog-page sub-page">
 
-		<?php include 'inc/nav.php'; ?>
+		<?php 
+			$page = 'blog';
+			include 'inc/nav.php';
+		?>
 
 		<div class="container" id="blog">
 		
 			<h1>Blog</h1>
-			<p class="home-page-link"><a href="index.php">Home</a></p>
 
-			<div class="blog-post">
+			<div class="blog-post white-bg">
 
 			<h2>Day 60 of 100 Days of Code</h2>
 
@@ -75,7 +77,7 @@
 
 
 
-			<div class="blog-post">
+			<div class="blog-post white-bg">
 
 			<h2>Day 1 of 100 Days of Code</h2>
 
