@@ -3,8 +3,14 @@ body, html {
 }
 
 body {
-	background-color: #fff;
+	background-color: #00787a;
 	margin: 0;
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+/* font-style: italic;*/
 }
 
 nav ul {
@@ -35,11 +41,7 @@ nav a {
 	color: black;
 }
 
-a {
-	color: black;
-	text-decoration: underline;
-/* font-style: italic;*/
-}
+
 
 textarea {
 	resize: vertical;

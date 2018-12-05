@@ -24,7 +24,7 @@
 
 			<div class="white-bg">
 
-				<h2>code &amp; design</h2>
+				<h2>Code &amp; Design</h2>
 
 				<div class="work-item">
 					<a href="http://wilfredwallis.com/steph/" target="_blank"><img src="img/challengechannel_sm.jpg" alt="challenge channel"></a><!--
@@ -44,7 +44,7 @@
 					</div><!-- .description -->
 				</div><!-- .work-item -->
 
-				<h2>content</h2>
+				<h2>Content</h2>
 
 				<div class="work-item">
 					<a href="https://www.imaste-ips.com/"><img src="img/imaste_sm.jpg" alt="imaste"></a><!--
@@ -64,7 +64,7 @@
 					</div><!-- .description -->
 				</div><!-- .work-item -->
 
-				<h2>graphic design</h2>
+				<h2>Graphic Design</h2>
 
 				<div class="graphic-thumbnail"><a href="img/pear.jpg" target="_blank"><img src="img/pear_sm.jpg" alt="pear"></a></div><!--
 

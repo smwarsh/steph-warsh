@@ -24,7 +24,9 @@
 
 			<div class="blog-post white-bg">
 
-			<h2>Day 60 of 100 Days of Code</h2>
+			<h2 id="day-60-of-100-days-of-code">Day 60 of 100 Days of Code</h2>
+
+			<p><a href="#day-60-of-100-days-of-code">Link to this post</a></p>
 
 			<p class="author">Steph Warsh</p>
 
@@ -72,15 +74,17 @@
 			<p>It’s crazy, I’ve been doing this for two months now, but I have just gotten so far. I never thought I’d be this far in my project, and I’m thrilled.</p>
 
 			<p>I hope to keep coding every day, even after 100 days have passed. I mean, I’ll probably take a nice break of about a week after the 100 days are over, but then I want to get right back to it, because it is really fun.</p>
-
+			
 			</div><!-- .blogpost -->
 
 
 
 			<div class="blog-post white-bg">
 
-			<h2>Day 1 of 100 Days of Code</h2>
+			<h2 id="day-1-of-100-days-of-code">Day 1 of 100 Days of Code</h2>
 
+			<p><a href="#day-1-of-100-days-of-code">Link to this post</a></p>
+			
 			<p class="author">Steph Warsh</p>
 
 			<div class="time-stamp">
