@@ -2,11 +2,19 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+
 		<title>Contact | Steph Warsh | Web Designer</title>
+
 		<?php include 'inc/head.php'; ?>
+
 	</head>
+
 	<body class="contact-page">
+
+		<?php include 'inc/nav.php'; ?>
+
 		<div class="container" id="contact">
+		
 		<main>
 			<h1>Contact</h1>
 			<p class="home-page-link"><a href="index.php">Home</a></p>

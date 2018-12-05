@@ -13,14 +13,7 @@
 
 	<body>
 
-		<!--<nav class="navbar">
-			<ul>
-				<li class="nav-item active"><a href="index.php" class="current">Home</a></li>
-				<li><a href="portfolio.php">Portfolio</a></li>
-				<li><a href="contact.php">Contact</a></li>
-				<li><a href="blog.php">Blog</a></li>
-			</ul>
-		</nav>-->
+		<?php include 'inc/nav.php'; ?>
 
 		<!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>

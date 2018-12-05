@@ -12,6 +12,9 @@
 	</head>
 
 	<body class="blog-page">
+
+		<?php include 'inc/nav.php'; ?>
+
 		<div class="container" id="blog">
 		
 			<h1>Blog</h1>

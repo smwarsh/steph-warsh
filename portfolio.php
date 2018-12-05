@@ -12,16 +12,10 @@
 	</head>
 
 	<body class="portfolio-img-bg">
-		<div class="container" id="portfolio">
-		
 
-			<!--<nav>
-				<ul>
-					<li><a href="#">home</a></li>
-					<li><a href="about.html">about</a></li>
-					<li><a href="#">contact</a></li>
-				</ul>
-			</nav>-->
+		<?php include 'inc/nav.php'; ?>
+
+		<div class="container" id="portfolio">
 
 			<h1 id="portfolio-h1">my work</h1>
 
