@@ -1,0 +1,279 @@
+body, html {
+	height: 100%;
+}
+
+body {
+	background-color: #fff;
+	margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: right;
+	position: fixed;
+	width: 100%;
+	margin: 5px 5px 0px 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+nav img {
+	border-radius: 25%;
+/*	border: 1px solid white; */
+	padding: 5px;
+	margin: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+a {
+	color: black;
+/*	text-decoration: none;
+	font-style: italic;*/
+}
+
+textarea {
+	resize: vertical;
+	max-height: 150px;
+}
+
+input, textarea {
+	outline: none; /* You can change this for a more intense border color */
+	border: 1px solid #7788c7;
+}
+
+input:focus, textarea:focus {
+	box-shadow: 0 0 4px rgba(119, 136, 199, 0.5);
+}
+
+::placeholder {
+	color: #2f3e73;
+}
+
+/*
+a:hover {
+	text-decoration: underline;
+}*/
+
+table {
+	width: 100%;
+}
+
+.blog-page, .contact-page {
+	background-color: #afb9de;
+}
+
+.blog-page h1, .contact-page h1 {
+	text-align: center;
+}
+
+.blog-post, .contact-form {
+	margin-top: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px gray;
+	background-color: white;
+}
+
+.blog-post h2 {
+	font-size: 3em;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.blog-page .home-page-link, .contact-page .home-page-link, .notice {
+	text-align: center;
+}
+
+.contact-form {
+	display: block;
+	text-align: center;
+}
+/*
+.contact-form textarea {
+	resize: vertical;
+	max-height: 150px;
+}
+*/
+.form-element {
+	display: inline-block;
+	margin: 10px auto;
+	width: 40%;
+	
+
+	/* The following is copied from https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms#Box_model */
+	-webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+    box-sizing: border-box;
+	
+}
+
+.form-element, button {
+	font-size: 100%;
+	line-height: 1.5;
+	font-family: Helvetica, sans-serif;
+	-webkit-appearance: none;
+	border-radius: 5px;
+}
+
+.time-stamp p {
+	margin: 0;
+	font-style: italic;
+	color: gray;
+}
+
+.container {
+	margin: 0 auto;
+	width: 70%;
+	max-width: 960px;
+	font-family: Helvetica, sans-serif;
+	padding-bottom: 5%;
+}
+
+.img-bg {
+	background-image: url("../img/profile3.jpg");
+	height: 100%;
+
+	/* create parallax scrolling effect */
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.portfolio-img-bg {
+	background: url("../img/sky.jpg") no-repeat center center fixed;
+	height: 100%;
+
+	/* create parallax scrolling effect */
+/*	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;*/
+	background-size: cover;
+}
+
+.portfolio-h2 {
+	border-bottom: 1px solid black;
+	font-family: 'Sacramento';
+	font-size: 3em;
+}
+
+.work-item {
+	margin-bottom: 20px;
+}
+
+.graphic-thumbnail {
+	display: inline;
+}
+
+.cover {
+	/*padding-bottom: 50%; *//* gives image 2:1 aspect ratio */
+	width: 100%;
+	height: 40%;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.cover img {
+	width: 100%;
+	z-index: -1;
+}
+
+.logo {
+	height: 250;
+	width: 250;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	margin-top: -20%;
+	box-shadow: 0px 0px 10px;
+	position: relative;
+}
+
+.visit {
+	text-align: center;
+	margin-top: 0;
+}
+
+.visit a {
+	font-style: italic;
+	text-decoration: none;
+}
+
+.visit a:hover {
+	text-decoration: underline;
+}
+
+#title {
+	text-align: center;
+	padding-top: 12%;
+	padding-left: 27%;
+	color: white;
+}
+
+#title h1, #blog h1, #contact h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 6em;
+	font-family: 'Poiret One', sans-serif;
+}
+
+#title p {
+	margin-top: -0.5em;
+	padding: 0;
+	font-family: 'Sacramento';
+	font-size: 3em;
+}
+
+#resources ul {
+	list-style-type: none;
+	margin-top: -0.5em;
+	padding: 0;
+}
+
+#resources li {
+	display: inline;
+	padding: 5px;
+}
+
+#portfolio-h1 {
+	font-size: 5em;
+	font-family: 'Poiret One', sans-serif;
+	text-align: center;
+}
+
+.subp #portfolio-h1 {
+	font-size: 3em;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+#portfolio img {
+	border-radius: 50%;
+}
+
+#portfolio img, #portfolio .description {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#portfolio img {
+	width: 30%;
+}
+
+#portfolio .graphic-thumbnail img {
+	width: 25%;
+	padding: 4%;
+}
+
+#portfolio .description {
+	width: 60%;
+	padding: 5%;
+}
