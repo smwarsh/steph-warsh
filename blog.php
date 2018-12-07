@@ -24,6 +24,107 @@
 
 			<div class="blog-post white-bg">
 
+				<h2 id="day-100">Day 100</h2>
+
+				<p><a href="#day-100">Link to this post</a></p>
+
+				<p class="author">Steph Warsh</p>
+
+				<div class="time-stamp">
+					<p>Thursday December 6, 2018</p>
+					<p>10:42pm ET</p>
+				</div>
+
+				<h3>I Did It!</h3>
+
+				<p>I have completed the 100 days of code challenge! I’m proud of myself for having stuck to it, and I won’t stop now.</p>
+
+				<h3>What Happened</h3>
+
+				<p>My goal for these 100 days was to learn JavaScript, so that’s what I did.</p>
+
+				<p>I started with FreeCodeCamp, but I didn’t find it effective. I soon moved on to other things, but every time I was dragging my feet about what I was working on, I returned to the FreeCodeCamp challenges. I did get through 213 challenges during these 100 days, but they weren’t my main focus.</p>
+
+				<p>I worked a bit on my portfolio site. In the first days of the challenge, I created the Blog and Contact pages, and in the last days, I added tabbed navigation to my site. I’m pleased with these additions.</p>
+
+				<p>I spent the majority of my time working on my spending tracker project, Thrift, which led me in wildly unpredictable directions.</p>
+
+				<p>Around day 80, I burned out during my weeklong trip to Texas and didn’t code for that entire week. It took another week to get back to coding for a full hour every day, and after that, I took more frequent days off, resulting in a total of 119 days passing between Day 1 and Day 100.</p>
+				
+				<p>In the last dozen or so days of the challenge, I put Thrift on hold and started a course in Node.js, which is what I am working on now.</p>
+
+				<h3>My Project</h3>
+
+				<p>I track my expenses in an Excel spreadsheet. I would love a dynamic web application that could replace the currently tedious process, so I set out to make it. I am invested in its success, because ideally I would like to use it when it is complete!</p>
+
+				<p>Thrift started out well. I did have one sizable hiccup in the beginning (<a href="https://github.com/smwarsh/100-days-of-code" target="_blank">check my log for all the gory details</a>), but coding in JavaScript went smoothly after that. I had difficulty moving the code from an online development environment like CodeSandbox to a real website, but Jared helped me when I got seriously stuck.</p>
+
+				<p>I finished the JavaScript elements, and I was at the point where I needed a database and needed to learn how to implement one. That adventure deserves its own section, so check out “My Accidental Journey into Backend Development” below.</p>
+
+				<p>I am currently working on a project in Node.js, guided by Wes Bos’ “Learn Node” course, and I will apply that knowledge to Thrift once I’m done, because Thrift is my one true love when it comes to coding projects, and I am learning Node.js mainly so I can succeed with Thrift.</p>
+
+				<p>I want Thrift to be a project that I can display proudly in my portfolio when I am done, and show to potential employers.</p>
+				
+				<h3>My Accidental Journey into Backend Development</h3>
+
+				<p>When I realized Thrift could not move forward without a database, I was determined not to spend too much time learning how to implement one. I did not want to spend too much time on the backend while creating my project, but my project is useless without a database.</p>
+
+				<p>I spent 15 long days taking SQL tutorials, and each of those 15 days felt even longer because of my desire not to spend any days at all on the topic.</p>
+
+				<p>Once I learned SQL, I realized I couldn’t use it on my webpage. So I taught myself PHP, which can communicate between SQL and HTML, and then I experienced my most exciting moment of these 100 days.</p>
+
+				<p>I connected my database to the webpage, and I was ecstatic. I’d never done anything like it before. I’d always had HTML, JavaScript, and other languages hard-coded on my websites, but it was amazing to see information from my database displaying on the page with all the complexities that go into making that happen. The excitement from this success stayed with me for days.</p>
+
+				<p>However, I quickly encountered my next problem. “I have all the transactions displayed,” I thought, “but how do I bring all the math, all the logic I wrote in JavaScript to the page?”</p>
+
+				<p>I went to my JavaScript file, tried to import my database, and utterly failed. Apparently, JavaScript and SQL don’t communicate, even with the help of PHP.</p>
+
+				<p>“What now?” I groaned. What new technology would I have to learn, as I continued down this seemingly infinite rabbit hole?</p>
+
+				<p>Of course, I turned to Jared for guidance, and learned that the best option was to learn Node.js and implement it on my site. I was so sick of all the time this detour had taken away from my path to learning JavaScript, and I didn’t want to “waste” more time learning backend technologies.</p>
+
+				<p>But then I thought, although I was reflexively shying away from backend development because of my commitment to the idea of becoming a frontend developer, I couldn't say I wasn’t having at least a little fun.</p>
+
+				<p>So, I thought, “Oh, what the heck,” and since then I’ve been working on a project learning Node.js.</p>
+
+				<p>In the end, I spent a full half of my 100 days learning backend development, but I learned a significant amount of JavaScript as well, thanks to my work on Thrift.</p>
+
+				<h3>What I've Learned</h3>
+
+				<p>These 100 days took me in directions I could never have predicted.</p>
+
+				<p>I wanted to see whether I was more interested in web development or UX/UI design, and in the end, I am leaning towards web development, because I haven’t even gone near UX/UI design in the past 100 days, and I haven’t wanted to. I feel engaged learning JavaScript and all these other technologies.</p>
+
+				<p>FreeCodeCamp challenges are fine for learning syntax, but I didn’t really learn from them. It tells you how to do each challenge beforehand, and you don’t have to think for yourself at all! It was helpful to start, but I’m glad it’s not the only thing I did.</p>
+
+				<p>Through my work on Thrift, I now have a small arsenal of technologies that I can use. I already knew HTML and CSS but I’ve quickly learned JavaScript, SQL, PHP, now Node.js… It’s incredible how doing a project takes you down paths you never would have imagined.</p>
+
+				<p>I can’t emphasize enough how important <a href="https://twitter.com/smwarsh" target="_blank">Twitter</a> was to this journey. Not only did I hold myself accountable with daily tweets, but I also started connecting with people. They encouraged me, gave me good recommendations, and best of all, I met Jared, who has become a much-needed mentor for me. Lacking a professor, TA, or classmates, I struggled, and I needed a real person to help me past seemingly impossible obstacles.</p>
+
+				<p>One small observation: Many times, I felt frustrated by how slowly I go through tutorials and how many notes I take, but I have realized that I am a kinesthetic learner and I need to do this. These careful studies provide a strong foundation that I build on. My favorite example is the 4 or 5 days I spent learning JavaScript array iteration methods; I have referred back to those notes countless times and benefited tremendously from the time I spent on it.</p>
+
+				<p>It is important to remember that everyone learns differently, and to cater to my own strengths to do this challenge in the way that works best for me.</p>
+
+				<h3>What Next?</h3>
+
+				<p>I will do a modified version of the challenge for Round 2. I’ll take a week off now, after the first round, and then start again. I will allow myself one day off every 10 days rather than every 14, and a week off at day 50 so I don’t burn out again.</p>
+
+				<p>I told myself I would start applying for jobs in the new year, but I don’t feel a serious urgency to do so. I know the application process will be difficult for me, so I will need to prepare, and I want to use a portion of my daily hour of code to do that, but not yet.</p>
+
+				<p>There’s so much I still want to do before then. I want to finish this Node.js course, apply my new knowledge to Thrift, then completely revamp my personal website. I want my website to represent me well, and I am embarrassed by its current amateurish design and coding. I have to beef up my content too, and sell myself to potential employers.</p>
+
+				<p>I will take the first 50 days of my next 100 days to continue what I’ve been doing. On Day 50, I will write a blog post, assess the situation, and maybe then I will begin the job search.</p>
+
+				<h3>Overall...</h3>
+
+				<p>This was an amazing experience, and I plan to continue it. 100 Days of Code is exactly what I needed to start my path towards a career in web development, and I’m optimistic about what Round 1 has done for me. It has turned me into a coder. I practice web development every day, and I’m proud of myself.</p>
+
+			</div><!-- .blogpost .white-bg -->
+
+
+
+			<div class="blog-post white-bg">
+
 			<h2 id="day-60-of-100-days-of-code">Day 60 of 100 Days of Code</h2>
 
 			<p><a href="#day-60-of-100-days-of-code">Link to this post</a></p>
@@ -32,7 +133,7 @@
 
 			<div class="time-stamp">
 				<p>Saturday October 13, 2018</p>
-				<p>10:03pm EST</p>
+				<p>10:03pm ET</p>
 			</div>
 
 			<h3>Day 60 Check-In</h3>
@@ -75,7 +176,7 @@
 
 			<p>I hope to keep coding every day, even after 100 days have passed. I mean, I’ll probably take a nice break of about a week after the 100 days are over, but then I want to get right back to it, because it is really fun.</p>
 			
-			</div><!-- .blogpost -->
+			</div><!-- .blogpost .white-bg -->
 
 
 
@@ -89,7 +190,7 @@
 
 			<div class="time-stamp">
 				<p>Friday August 10, 2018</p>
-				<p>9:43pm EST</p>
+				<p>9:43pm ET</p>
 			</div>
 			<h3>Background</h3>
 
