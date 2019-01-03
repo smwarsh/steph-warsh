@@ -22,6 +22,91 @@
 		
 			<h1>Blog</h1>
 
+
+
+			<div class="blog-post white-bg">
+
+				<h2 id="git-setup">Quick Start with Git</h2>
+
+				<p><a href="#git-setup">Link to this post</a></p>
+
+				<p class="author">Steph Warsh</p>
+
+				<div class="time-stamp">
+					<p>Wednesday January 2, 2019</p>
+					<p>10:03pm ET</p>
+				</div>
+
+				<h3>Why</h3>
+
+				<p>I am writing this post because I am learning to use Git from the command line and I have been through the steps of setting up a repository several times, but my notes are scattered and I wanted to bring the process into one, concise format.</p>
+
+				<h3>What</h3>
+
+				<p>I want to emphasize that this post is mostly a note-to-self, and I realize that it may not be fully helpful to anyone else. I am not going into detail, because this is a review of steps I already know.</p>
+
+				<p>These steps are specific to my situation. I already have a project underway, with multiple files in a folder on my computer, and I want to create a new repository on GitHub in which I will start working with the code. I am the only person working on this project, so I don't need to worry about merges or pull requests. I work on a Mac. This is a simple list of the steps I need to take and Terminal commands I need to type to achieve my purpose.</p>
+
+				<p>If you are looking for better resources, these are the places where I learned all this information:</p>
+
+				<ul>
+					<li><em>Course:</em> <a href="https://www.udemy.com/short-and-sweet-get-started-with-git-and-github-right-now/learn/v4/content" target="_blank">Short and Sweet: Get Started with Git and GitHub Right Now</a></li>
+					<li><em>Article:</em> <a href="https://medium.freecodecamp.org/how-you-can-learn-git-and-github-while-youre-learning-to-code-7a592ea287ba" target="_blank">"How you can learn Git and GitHub while you’re learning to code"</a></li>
+				</ul>
+
+				<h3>How</h3>
+
+				<p><div class="step">Step 1:</div> Have the files you want to put on GitHub in the workspace folder on your computer in their own folder. If you don't have the workspace folder, create it with the command 
+				<div class="code">mkdir workspace</div></p>
+
+				<p><div class="step">Step 2:</div> Create the (empty) repository on GitHub.</p>
+
+				<p><div class="step">Step 3:</div> Change your location to your project folder (mine is named "thrift"): 
+				<div class="code">cd workspace/thrift</div></p>
+
+				<p><div class="step">Step 4:</div> Initialize your repository: 
+				<div class="code">git init</div></p>
+
+				<p><div class="step">Step 5:</div> To check what files are in your folder: 
+				<div class="code">ls -al</div> 
+				You should see .git, which was created in Step 4, in addition to whatever other files were already in the folder.</p>
+
+				<p><div class="step">Step 6:</div> Mark files you do not want uploaded: 
+				<div class="code">touch .gitignore</div></p>
+
+				<p><div class="step">Step 7:</div> Open .gitignore in a text editor and add .DS_Store and any other file(s) you want to ignore to the file. Each file name goes in plain text on its own line.</p>
+
+				<p><div class="step">Step 8:</div> See what is in .gitignore: 
+				<div class="code">cat .gitignore</div></p>
+
+				<p><div class="step">Step 9:</div> Add all files in the current repository to the local repository: 
+				<div class="code">git add --all</div></p>
+
+				<p><div class="step">Step 10:</div> See what has changed: 
+				<div class="code">git status</div></p>
+
+				<p><div class="step">Step 11:</div> Commit the current version of the project: 
+				<div class="code">git commit -m "Whatever you want to call the commit"</div></p>
+
+				<p><div class="step">Step 12:</div> Link to the online repository created in Step 2 (I use SSH to connect, and the link is given to you when you create an empty repository on GitHub): 
+				<div class="code">git remote add origin git@github.com:smwarsh/thrift.git</div></p>
+
+				<p><div class="step">Step 13:</div> Push changes: 
+				<div class="code">git push -u origin master</div> 
+				Note: "origin" refers to the online repository and "master" refers to the local repository.</p>
+
+				<p><div class="step">Step 14:</div> Check your files: 
+				<div class="code">git status</div> 
+				If all went well, you should see something like: 
+				<div class="code">On branch master<br />Your branch is up-to-date with 'origin/master'.<br />nothing to commit, working tree clean</div></p>
+
+				<p><div class="step">Step 15:</div> When you make more changes later, it is best practice to add changed files individually: 
+				<div class="code">git add README.md</div></p>
+
+			</div><!-- .blogpost .white-bg -->
+
+
+
 			<div class="blog-post white-bg">
 
 				<h2 id="day-100">Day 100</h2>
