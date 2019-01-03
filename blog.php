@@ -34,7 +34,7 @@
 
 				<div class="time-stamp">
 					<p>Wednesday January 2, 2019</p>
-					<p>10:03pm ET</p>
+					<p>11:09pm ET</p>
 				</div>
 
 				<h3>Why</h3>
