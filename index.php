@@ -45,7 +45,7 @@
 
 			<div id="resources">
 				<ul>
-					<li><a href="StephWarshResume.pdf" title="resume" target="_blank"><img src="img/document-128.png" alt="resume" width="40" height="40"></a></li>
+					<li><a href="StephWarshResumeMar2019.pdf" title="resume" target="_blank"><img src="img/document-128.png" alt="resume" width="40" height="40"></a></li>
 					<li><a href="portfolio.php" title="portfolio"><img src="img/folder-128.png" alt="portfolio" width="40" height="40"></a></li>
 					<li><a href="https://github.com/smwarsh" title="github" target="_blank"><img src="img/github2.png" alt="github mark" width="40" height="40"></a></li>
 					<li><a href="https://www.flickr.com/photos/67760352@N05/albums" title="flickr" target="_blank"><img src="img/flickr2.png" width="40" height="40" alt="flickr icon"></a></li>
