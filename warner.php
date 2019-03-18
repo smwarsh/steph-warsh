@@ -17,6 +17,7 @@
 		
 		<article>
 			<img src="img/warner_logo.jpg" alt="Warner School of Education logo" class="logo">
+			<div class="white-bg">
 			<h1 id="portfolio-h1">warner school of education</h1>
 			<p class="visit"><a href="https://www.warner.rochester.edu/" target="_blank">click here to visit site &#8594;</a></p>
 			<h2 class="portfolio-h2">design</h2>
@@ -48,7 +49,7 @@
 
 			<h2 class="portfolio-h2">html &amp; css</h2>
 			<p>While migrating content to new pages, I coded HTML in the widgets. While doing this, I eliminated deprecated tags and updated the code to conform to current norms.</p>
-
+			</div>
 		</article>
 		<!--<footer></footer>-->
 	</div><!-- .container -->
