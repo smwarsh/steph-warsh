@@ -1,11 +1,11 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="Steph Warsh's blog. Currently limited to two text posts about 100 Days of Code" />
+		<meta name="description" content="Steph Warsh's blog. Currently limited to a couple of text posts about 100 Days of Code and Git" />
 		<meta name="keywords" content="Steph, Warsh, New, York, Digital, Website, Design, Development, Coding, Programming, 100DaysOfCode" />
 		<meta name="author" content="Steph Warsh" />
 		
-		<title>Blog | Steph Warsh | Web Designer</title>
+		<title>Blog | Steph Warsh | Web Developer</title>
 
 		<?php include 'inc/head.php'; ?>
 	

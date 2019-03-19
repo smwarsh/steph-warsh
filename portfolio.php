@@ -5,7 +5,7 @@
 		<meta name="keywords" content="Steph, Warsh, New, York, Digital, Website, Design, Development, Coding, Programming, Front, End" />
 		<meta name="author" content="Steph Warsh" />
 		
-		<title>Portfolio | Steph Warsh | Web Designer</title>
+		<title>Portfolio | Steph Warsh | Web Developer</title>
 
 		<?php include 'inc/head.php'; ?>
 	
@@ -24,7 +24,7 @@
 
 			<div class="white-bg">
 
-				<h2>Code &amp; Design</h2>
+				<h2>Code &amp; Development</h2>
 
 				<div class="work-item">
 					<a href="http://wilfredwallis.com/steph/" target="_blank"><img src="img/challengechannel_sm.jpg" alt="challenge channel"></a><!--

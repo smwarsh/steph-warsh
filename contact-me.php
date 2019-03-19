@@ -5,7 +5,7 @@
 		<meta name="keywords" content="Steph, Warsh, New, York, Jersey, Digital, Website, Design, Development, Coding, Programming, Contact" />
 		<meta name="author" content="Steph Warsh" />
 		
-		<title>Contact | Steph Warsh | Web Designer</title>
+		<title>Contact | Steph Warsh | Web Developer</title>
 
 		<?php include 'inc/head.php'; ?>
 	

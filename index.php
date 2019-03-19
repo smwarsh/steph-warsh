@@ -5,7 +5,7 @@
 		<meta name="keywords" content="Steph, Warsh, New, York, Digital, Website, Design, Development, Coding, Programming, Front, End" />
 		<meta name="author" content="Steph Warsh" />
 
-		<title>Steph Warsh | Web Designer</title>
+		<title>Steph Warsh | Web Developer</title>
 		
 		<?php include 'inc/head.php'; ?>
 		
@@ -40,7 +40,7 @@
 			
 			<div id="title">
 				<h1>steph warsh</h1>
-				<p>multilingual web designer</p>
+				<p>multilingual web developer</p>
 			
 
 			<div id="resources">

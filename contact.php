@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Contact | Steph Warsh | Web Designer</title>
+		<title>Contact | Steph Warsh | Web Developer</title>
 
 		<?php include 'inc/head.php'; ?>
 
