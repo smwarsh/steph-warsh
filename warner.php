@@ -18,8 +18,8 @@
 		<article>
 			<img src="img/warner_logo.jpg" alt="Warner School of Education logo" class="logo">
 			<div class="white-bg">
-				<h1 id="portfolio-h1">warner school of education</h1>
-				<p class="visit"><a href="https://www.warner.rochester.edu/" target="_blank">click here to visit site &#8594;</a></p>
+				<h1 id="portfolio-h1">Warner School of Education</h1>
+				<p class="visit"><a href="https://www.warner.rochester.edu/" target="_blank">Click here to visit site &#8594;</a></p>
 				<h2 class="portfolio-h2">design</h2>
 				<p>If you <a href="https://www.warner.rochester.edu/" target="_blank">visit the home page</a>, you immediately see buttons that I designed and coded. Everyone else on my team specialized in back-end coding, so my supervisor assigned all design work and CSS coding to me. When he asked me to create a new button design, I made 4 different options using CSS classes. I utilized colors already present in the site's color scheme in order to seamlessly integrate the buttons, and I added gradient with other blues and yellows in the site's design.</p>
 				<p>While migrating content from old pages to new ones as we revamped the site, I applied several main design principles (repetition, hierarchy, space, and rhythm, to name a few). Using fonts and colors already on the website, I cleaned up the overall visual impression of each page, shortened and clarified content, and made sure layout was consistent across the site.</p>

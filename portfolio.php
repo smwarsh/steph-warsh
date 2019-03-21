@@ -41,6 +41,7 @@
 					<h3>Warner School of Education</h3>
 					<p>design, html, css, php, cms</p>
 					<p>I enhanced the website for the graduate school of education at the University of Rochester, transferred content from the old site to the new site, and designed layouts.</p>
+					<p class="click"><a href="warner.php">Learn more &#8594;</a></p>
 					</div><!-- .description -->
 				</div><!-- .work-item -->
 

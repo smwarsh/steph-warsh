@@ -140,6 +140,10 @@ table {
 	border-radius: 5px;
 }
 
+.click a {
+	font-style: italic;
+}
+
 .code {
 	background: rgba(0, 0, 0, .05);
 	padding: 20px;
