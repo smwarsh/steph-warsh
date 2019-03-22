@@ -27,10 +27,20 @@
 				<h2>Code &amp; Development</h2>
 
 				<div class="work-item">
+					<a href="https://github.com/smwarsh/thrift" target="_blank"><img src="img/dollars_sm.jpg" alt="Thrift Spending Tracker"></a><!--
+					--><div class="description">
+					<h3>Thrift Spending Tracker</h3>
+					<p>JavaScript, HTML templates (Pug/Jade), Git, Node.js, Express, MongoDB</p>
+					<p>I am developing a spending tracker web application to replace a tedious spreadsheet with which I am currently tracking my expenses.</p>
+					<p class="click"><a href="https://github.com/smwarsh/thrift" target="_blank">See it on GitHub &#8594;</a></p>
+					</div><!-- .description -->
+				</div><!-- .work-item -->
+
+				<div class="work-item">
 					<a href="http://wilfredwallis.com/steph/" target="_blank"><img src="img/challengechannel_sm.jpg" alt="challenge channel"></a><!--
 					--><div class="description">
 					<h3>Challenge Channel</h3>
-					<p>design, html, css, sass, bootstrap, github</p>
+					<p>Design, HTML, CSS, SASS, Bootstrap, GitHub</p>
 					<p>I worked with a team to complete this web app for a web programming course. I designed the layout and coded all the HTML and CSS for the project.</p>
 					</div><!-- .description -->
 				</div><!-- .work-item -->
@@ -39,7 +49,7 @@
 					<a href="warner.php"><img src="img/warner_sm.jpg" alt="warner"></a><!--
 					--><div class="description">
 					<h3>Warner School of Education</h3>
-					<p>design, html, css, php, cms</p>
+					<p>Design, HTML, CSS, PHP, CMS</p>
 					<p>I enhanced the website for the graduate school of education at the University of Rochester, transferred content from the old site to the new site, and designed layouts.</p>
 					<p class="click"><a href="warner.php">Learn more &#8594;</a></p>
 					</div><!-- .description -->
@@ -51,7 +61,7 @@
 					<a href="https://www.imaste-ips.com/"><img src="img/imaste_sm.jpg" alt="imaste"></a><!--
 					--><div class="description">
 					<h3>Imaste</h3>
-					<p>digital marketing, wordpress, translation</p>
+					<p>Digital marketing, WordPress, translation</p>
 					<p>I worked with the digital marketing team of a virtual events company based in Madrid. I contributed to the blog, translated website content into English, and generated leads (among other digital marketing responsibilities: <a href="StephWarshResume.pdf" target="_blank">See my resume for more details</a>).</p>
 					</div><!-- .description -->
 				</div><!-- .work-item -->
@@ -60,7 +70,7 @@
 					<a href="https://www.facebook.com/urjsa/"><img src="img/jsa_sm.jpg" alt="university of rochester japanese students' association"></a><!--
 					--><div class="description">
 					<h3>University of Rochester Japanese Students' Association</h3>
-					<p>digital photography, social media, advertising</p>
+					<p>Digital photography, social media, advertising</p>
 					<p>I create content for the organization's social media pages, promote events, and take photos.</p>
 					</div><!-- .description -->
 				</div><!-- .work-item -->
