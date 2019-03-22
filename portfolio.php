@@ -37,16 +37,17 @@
 				</div><!-- .work-item -->
 
 				<div class="work-item">
-					<a href="http://wilfredwallis.com/steph/" target="_blank"><img src="img/challengechannel_sm.jpg" alt="challenge channel"></a><!--
+					<a href="https://github.com/Aniar/challenge-channel" target="_blank"><img src="img/challengechannel_sm.jpg" alt="Challenge Channel"></a><!--
 					--><div class="description">
 					<h3>Challenge Channel</h3>
 					<p>Design, HTML, CSS, SASS, Bootstrap, GitHub</p>
 					<p>I worked with a team to complete this web app for a web programming course. I designed the layout and coded all the HTML and CSS for the project.</p>
+					<p class="click"><a href="https://github.com/Aniar/challenge-channel" target="_blank">See it on GitHub &#8594;</a></p>
 					</div><!-- .description -->
 				</div><!-- .work-item -->
 
 				<div class="work-item">
-					<a href="warner.php"><img src="img/warner_sm.jpg" alt="warner"></a><!--
+					<a href="warner.php"><img src="img/warner_sm.jpg" alt="Warner"></a><!--
 					--><div class="description">
 					<h3>Warner School of Education</h3>
 					<p>Design, HTML, CSS, PHP, CMS</p>
@@ -58,11 +59,11 @@
 				<h2>Content</h2>
 
 				<div class="work-item">
-					<a href="https://www.imaste-ips.com/"><img src="img/imaste_sm.jpg" alt="imaste"></a><!--
+					<a href="www.imaste-ips.com"><img src="img/imaste_sm.jpg" alt="imaste"></a><!--
 					--><div class="description">
 					<h3>Imaste</h3>
 					<p>Digital marketing, WordPress, translation</p>
-					<p>I worked with the digital marketing team of a virtual events company based in Madrid. I contributed to the blog, translated website content into English, and generated leads (among other digital marketing responsibilities: <a href="StephWarshResume.pdf" target="_blank">See my resume for more details</a>).</p>
+					<p>I worked with the digital marketing team of a virtual events company based in Madrid. I contributed to the blog, translated website content into English, and generated leads, among other digital marketing responsibilities.</p>
 					</div><!-- .description -->
 				</div><!-- .work-item -->
 
