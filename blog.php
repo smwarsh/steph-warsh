@@ -23,6 +23,72 @@
 			<h1>Blog</h1>
 
 
+			<div class="blog-post white-bg">
+
+				<h2 id="git-branch">Make and Use a Git Branch in Terminal</h2>
+
+				<p><a href="#git-branch">Link to this post</a></p>
+
+				<p class="author">Steph Warsh</p>
+
+				<div class="time-stamp">
+					<p>Tuesday February 25, 2020</p>
+					<p>8:36pm ET</p>
+				</div>
+
+				<h3>Time to branch out (ha)</h3>
+
+				<p>I want to start using Git branches in my personal project, a <a href="https://github.com/smwarsh/thrift" target="_blank">spending tracker called Thrift</a>. I'm the only one who works on it for now, but at this point, I want to be able to do bug fixes in a safe space where I won't destroy my project if things go awry.</p>
+				
+				<p>I like to use Git in the command line, but I couldn't find a clear-cut explanation of how to do what I wanted, so I went through a fun trial-and-error process to piece together the Terminal commands that would give me my desired result.</p>
+
+				<h3>Don't sue me</h3>
+
+				<p>I have only done this once, so I'm by no means an authority. These steps might not even work the next time I try. However, I want to document the steps I took so I can easily access them next time I want to make a branch. Like I said in my last post, <a href="#git-setup">Quick Start with Git</a>, I want to emphasize that this post is mostly a note-to-self, and I realize that it may not be fully helpful to anyone else. I am not going into detail with the steps beyond what I need to replicate this next time.</p>
+
+				<p>These steps are specific to my situation. I don't want to keep my new branch local; I want it to appear in my GitHub repository. I work on a Mac. I don't have anything special installed for my Terminal (yet). This is a simple list of the steps I need to take and Terminal commands I need to type to achieve my purpose.</p>
+
+				<p>These are the articles I used on this journey:</p>
+
+				<ul>
+					<li><a href="https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches" target="_blank">"Create a new branch with git and manage branches"</a></li>
+					<li><a href="https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/" target="_blank">"Don’t Mess with the Master: Working with Branches in Git and GitHub"</a> (the most helpful, but missing a few key points like how to use the branch with the GitHub remote repository)</li>
+					<li><a href="https://www.freecodecamp.org/forum/t/push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too/13222" target="_blank">"Push a new local branch to a remote Git repository and track it too"</a></li>
+				</ul>
+
+				<h3>The how-to</h3>
+
+				<p><div class="step">Step 1:</div> In your project's directory, create the new branch and switch to it: 
+				<div class="code">git checkout -b branch_name</div></p>
+
+				<p><div class="step">Step 2:</div> To see all branches, with an asterisk next to the current one:
+				<div class="code">git branch -a</div></p>
+
+				<p><div class="step">Step 3:</div> To put the branch on GitHub: 
+				<div class="code">git push origin branch_name</div></p>
+
+				<p><div class="step">Step 4:</div> I'm actually fuzzy on what purpose this step has. A "remote" repository is the repository on GitHub, and this "adds a new remote." One thing I do see is that it adds a new branch to the list of branches called remotes/origin/branch_name:
+				<div class="code">git remote add branch_name_but_different branch_name</div></p>
+
+				<p><div class="step">Step 5:</div> Make changes to code, add, and commit.</p>
+
+				<p><div class="step">Step 6:</div> To push these changes to the branch on GitHub:
+				<div class="code">git push -u origin branch_name</div></p>
+
+				<p><div class="step">Step 7:</div> When you are ready to merge the changes to the master branch, switch back to the master branch:
+				<div class="code">git checkout master</div>
+				Note: you can switch between any branches with this command.</p>
+
+				<p><div class="step">Step 8:</div> To merge from branch_name to master (make sure you are on the master branch for this!): 
+				<div class="code">git merge branch_name --no-ff</div>
+				The --no-ff is to keep commit messages from before the merge. You'd think this would be the default, but I guess not.</p>
+
+				<p><div class="step">Step 9:</div> To push the changes to the master branch on GitHub: 
+				<div class="code">git push origin master</div></p>
+
+			</div><!-- .blogpost .white-bg -->
+
+
 
 			<div class="blog-post white-bg">
 
