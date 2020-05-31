@@ -24,7 +24,7 @@
 
 			<div class="white-bg">
 
-				<h2>Code &amp; Development</h2>
+				<h2>Projects</h2>
 
 				<div class="work-item">
 					<a href="https://github.com/smwarsh/thrift" target="_blank"><img src="img/dollars_sm.jpg" alt="Thrift Spending Tracker"></a><!--
@@ -46,6 +46,8 @@
 					</div><!-- .description -->
 				</div><!-- .work-item -->
 
+				<h2>Experience</h2>
+
 				<div class="work-item">
 					<a href="warner.php"><img src="img/warner_sm.jpg" alt="Warner"></a><!--
 					--><div class="description">
@@ -53,26 +55,6 @@
 					<p>Design, HTML, CSS, PHP, CMS</p>
 					<p>I enhanced the website for the graduate school of education at the University of Rochester, transferred content from the old site to the new site, and designed layouts.</p>
 					<p class="click"><a href="warner.php">Learn more &#8594;</a></p>
-					</div><!-- .description -->
-				</div><!-- .work-item -->
-
-				<h2>Content</h2>
-
-				<div class="work-item">
-					<a href="www.imaste-ips.com"><img src="img/imaste_sm.jpg" alt="imaste"></a><!--
-					--><div class="description">
-					<h3>Imaste</h3>
-					<p>Digital marketing, WordPress, translation</p>
-					<p>I worked with the digital marketing team of a virtual events company based in Madrid. I contributed to the blog, translated website content into English, and generated leads, among other digital marketing responsibilities.</p>
-					</div><!-- .description -->
-				</div><!-- .work-item -->
-
-				<div class="work-item">
-					<a href="https://www.facebook.com/urjsa/"><img src="img/jsa_sm.jpg" alt="university of rochester japanese students' association"></a><!--
-					--><div class="description">
-					<h3>University of Rochester Japanese Students' Association</h3>
-					<p>Digital photography, social media, advertising</p>
-					<p>I create content for the organization's social media pages, promote events, and take photos.</p>
 					</div><!-- .description -->
 				</div><!-- .work-item -->
 
