@@ -37,12 +37,12 @@
 				</div><!-- .work-item -->
 
 				<div class="work-item">
-					<a href="https://github.com/Aniar/challenge-channel" target="_blank"><img src="img/challengechannel_sm.jpg" alt="Challenge Channel"></a><!--
+					<a href="https://github.com/smwarsh/challenge-channel" target="_blank"><img src="img/challengechannel_sm.jpg" alt="Challenge Channel"></a><!--
 					--><div class="description">
 					<h3>Challenge Channel</h3>
 					<p>Design, HTML, CSS, SASS, Bootstrap, GitHub</p>
 					<p>I worked with a team to complete this web app for a web programming course. I designed the layout and coded all the HTML and CSS for the project.</p>
-					<p class="click"><a href="https://github.com/Aniar/challenge-channel" target="_blank">See it on GitHub &#8594;</a></p>
+					<p class="click"><a href="https://github.com/smwarsh/challenge-channel" target="_blank">See it on GitHub &#8594;</a></p>
 					</div><!-- .description -->
 				</div><!-- .work-item -->
 
