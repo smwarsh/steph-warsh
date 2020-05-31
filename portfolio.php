@@ -49,6 +49,16 @@
 				<h2>Experience</h2>
 
 				<div class="work-item">
+					<a href="https://greaterthanone.com/" target="_blank"><img src="img/gto-logo.png" alt="Web development at Greater Than One"></a><!--
+					--><div class="description">
+					<h3>Greater Than One</h3>
+					<p>JavaScript, jQuery, HTML, CSS, Drupal CMS</p>
+					<p>I am given a design file and behavior information and I code the website to mirror it exactly. I pride myself on my clean, organized code for mobile-first sites that are responsive and work well across all major browsers for mobile and desktop devices, including Google Chrome, Firefox, Safari, Edge, and Internet Explorer 11.</p>
+					<p class="click"><a href="https://greaterthanone.com/" target="_blank">Visit the company site &#8594;</a></p>
+					</div><!-- .description -->
+				</div><!-- .work-item -->
+
+				<div class="work-item">
 					<a href="warner.php"><img src="img/warner_sm.jpg" alt="Warner"></a><!--
 					--><div class="description">
 					<h3>Warner School of Education</h3>
