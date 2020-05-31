@@ -10,7 +10,6 @@ body {
 a {
 	color: black;
 	text-decoration: underline;
-/* font-style: italic;*/
 }
 
 nav ul {
@@ -79,7 +78,7 @@ table {
 	color: white;
 	margin: 0;
 	padding: 0;
-	font-size: 6em;
+	font-size: 96px;
 	font-family: 'Poiret One', sans-serif;
 }
 
@@ -92,7 +91,7 @@ table {
 }
 
 .white-bg h2 {
-	font-size: 3.5em;
+	font-size: 56px;
 	font-family: 'Sacramento', sans-serif;
 	border-bottom: 1px solid black;
 	margin-bottom: 10px;
@@ -101,8 +100,7 @@ table {
 
 .white-bg h3 {
 	font-family: 'Poiret One', sans-serif;
-	font-size: 2.5em;
-	/* margin-top: 1em; */
+	font-size: 40px;
 }
 
 .sub-page .home-page-link, .home-page-link, .notice {
@@ -153,7 +151,7 @@ table {
 
 .step {
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 19px;
 }
 
 .time-stamp {
@@ -172,6 +170,7 @@ table {
 	max-width: 960px;
 	font-family: Helvetica, sans-serif;
 	padding-bottom: 5%;
+	font-size: 16px;
 }
 
 .img-bg {
@@ -188,7 +187,7 @@ table {
 .portfolio-h2 {
 	border-bottom: 1px solid black;
 	font-family: 'Sacramento';
-	font-size: 3em;
+	font-size: 48px;
 }
 
 .work-item {
@@ -242,7 +241,7 @@ table {
 #title h1 {
 	margin: 0;
 	padding: 0;
-	font-size: 6em;
+	font-size: 96px;
 	font-family: 'Poiret One', sans-serif;
 }
 
@@ -250,7 +249,7 @@ table {
 	margin-top: -0.5em;
 	padding: 0;
 	font-family: 'Sacramento';
-	font-size: 3em;
+	font-size: 48px;
 }
 
 #resources ul {
@@ -265,7 +264,7 @@ table {
 }
 
 .subp #portfolio-h1 {
-	font-size: 3em;
+	font-size: 48px;
 	margin-top: 1%;
 	margin-bottom: 2%;
 	text-align: center;
