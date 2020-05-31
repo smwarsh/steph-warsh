@@ -76,14 +76,6 @@
 					</div><!-- .description -->
 				</div><!-- .work-item -->
 
-				<h2>Graphic Design</h2>
-
-				<div class="graphic-thumbnail"><a href="img/pear.jpg" target="_blank"><img src="img/pear_sm.jpg" alt="pear"></a></div><!--
-
-				--><div class="graphic-thumbnail"><a href="img/rain.jpg" target="_blank"><img src="img/rain_sm.jpg" alt="rain typography"></a></div><!--
-
-				--><div class="graphic-thumbnail"><a href="img/horse.jpg" target="_blank"><img src="img/horse_sm.jpg" alt="horse"></a></div>
-
 			</div> <!-- .white-bg -->
 		<div id="about">
 			
