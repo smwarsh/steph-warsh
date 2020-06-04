@@ -1,8 +1,8 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="Steph Warsh is an aspiring web developer living in New Jersey, outside New York City." />
-		<meta name="keywords" content="Steph, Warsh, New, York, Digital, Website, Design, Development, Coding, Programming, Front, End" />
+		<meta name="description" content="Steph Warsh is a front-end web developer based in Brooklyn, New York and Cork, Ireland. This is some of her work." />
+		<meta name="keywords" content="Steph, Warsh, Brooklyn, New, York, Cork, Ireland, Digital, Website, Development, Coding, Programming, Front, End" />
 		<meta name="author" content="Steph Warsh" />
 		
 		<title>Portfolio | Steph Warsh | Web Developer</title>
@@ -49,7 +49,7 @@
 				<h2>Experience</h2>
 
 				<div class="work-item">
-					<a href="https://greaterthanone.com/" target="_blank"><img src="img/gto-logo.png" alt="Web development at Greater Than One"></a><!--
+					<a href="https://greaterthanone.com/" target="_blank"><img src="img/gto-logo.png" alt="Web development at Greater Than One digital agency"></a><!--
 					--><div class="description">
 					<h3>Greater Than One</h3>
 					<p>JavaScript, jQuery, HTML, CSS, Drupal CMS</p>
@@ -59,12 +59,12 @@
 				</div><!-- .work-item -->
 
 				<div class="work-item">
-					<a href="warner.php"><img src="img/warner_sm.jpg" alt="Warner"></a><!--
+					<a href="portfolio/warner.php"><img src="img/warner_sm.jpg" alt="Warner"></a><!--
 					--><div class="description">
 					<h3>Warner School of Education</h3>
 					<p>Design, HTML, CSS, PHP, CMS</p>
 					<p>I enhanced the website for the graduate school of education at the University of Rochester, transferred content from the old site to the new site, and designed layouts.</p>
-					<p class="click"><a href="warner.php">Learn more &#8594;</a></p>
+					<p class="click"><a href="portfolio/warner.php">Learn more &#8594;</a></p>
 					</div><!-- .description -->
 				</div><!-- .work-item -->
 
