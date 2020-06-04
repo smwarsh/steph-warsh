@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="Steph Warsh is a front-end web developer based in Brooklyn, New York." />
+		<meta name="description" content="Steph Warsh is a front-end web developer based in Brooklyn, New York and Cork, Ireland." />
 		<meta name="keywords" content="Steph, Warsh, New, York, Digital, Website, Design, Development, Coding, Programming, Front, End" />
 		<meta name="author" content="Steph Warsh" />
 
