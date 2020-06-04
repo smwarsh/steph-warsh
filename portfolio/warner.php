@@ -1,22 +1,22 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="Steph Warsh's work as a web developer intern at the University of Rochester's Warner School of Education in New York" />
-		<meta name="keywords" content="Steph, Warsh, Rochester, New, York, Digital, Website, Design, Development, Coding, Programming, Intern, Internship, Front, End" />
+		<meta name="description" content="Steph Warsh's work as a web development intern at University of Rochester's Warner School of Education in New York" />
+		<meta name="keywords" content="Steph, Warsh, Brooklyn, Cork, Ireland, Rochester, New, York, Digital, Website, Design, Development, Coding, Programming, Front, End" />
 		<meta name="author" content="Steph Warsh" />
 
 		<title>Warner School | Steph Warsh | Web Developer</title>
 
-		<?php include 'inc/head.php'; ?>
+		<?php include '../inc/head.php'; ?>
 
 	</head>
 
 	<body class="subp">
-		<header class="cover"><img src="img/warner_lg_2.jpg"></header>
+		<header class="cover"><img src="../img/warner_lg_2.jpg"></header>
 	<div class="container">
 		
 		<article>
-			<img src="img/warner_logo.jpg" alt="Warner School of Education logo" class="logo">
+			<img src="../img/warner_logo.jpg" alt="Warner School of Education logo" class="logo">
 			<div class="white-bg">
 				<h1 id="portfolio-h1">Warner School of Education</h1>
 				<p class="visit"><a href="https://www.warner.rochester.edu/" target="_blank">Click here to visit site &#8594;</a></p>
