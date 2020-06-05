@@ -186,20 +186,23 @@ nav .active a {
  */
 textarea {
 	resize: vertical;
-	max-height: 150px;
+  min-height: 150px;
+  max-height: 700px; /* keep it from getting ridiculous */
 }
 
 input, textarea {
 	outline: none; /* You can change this for a more intense border color */
-	border: 1px solid #00787a;
+  border: 1px solid #00787a;
+  padding: 8px;
 }
 
 input:focus, textarea:focus {
-	box-shadow: 0 0 4px rgba(119, 136, 199, 0.5);
+  border: 1px solid #ff8785;
+	box-shadow: 0 0 4px #ff8785;
 }
 
 ::placeholder {
-	color: #2f3e73;
+	color: #333;
 }
 
 table {
@@ -212,10 +215,8 @@ table {
 }
 
 .form-element {
-	display: inline-block;
-	margin: 10px auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
 	
 
 	/* The following is copied from https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms#Box_model */
@@ -226,11 +227,21 @@ table {
 }
 
 .form-element, button {
-	font-size: 100%;
-	line-height: 1.5;
-	font-family: Helvetica, sans-serif;
 	-webkit-appearance: none;
 	border-radius: 5px;
+}
+
+button {
+  background-color: #ff8785;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 8px 50px;
+}
+
+button:hover,
+button:focus {
+  background-color: #ff7876;
 }
 
 

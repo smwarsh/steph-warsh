@@ -16,7 +16,7 @@
 			include 'inc/nav.php';
 		?>
 
-		<div class="container" id="contact">
+		<div class="page" id="contact">
 		
 		<main>
 			<h1>Contact</h1>
