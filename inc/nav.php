@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light">
-  <ul class="navber-nav">
+  <ul class="navbar-nav">
     <li class="nav-item<?php if($page=='home') {echo ' active';} ?>"><a href="index.php">Home</a></li>
     <li class="nav-item<?php if($page=='portfolio') {echo ' active';} ?>"><a href="portfolio.php">Portfolio</a></li>
     <li class="nav-item<?php if($page=='contact') {echo ' active';} ?>"><a href="contact.php">Contact</a></li>
