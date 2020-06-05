@@ -23,6 +23,8 @@ body {
 h1 {
   font-size: 64px;
   font-family: 'Poiret One', sans-serif;
+  color: #fff;
+  text-align: center;
 }
 
 h2 {
@@ -264,15 +266,19 @@ table {
  * PORTFOLIO PAGE
  *
  */
-
-
-
-.work-item {
-	margin-bottom: 20px;
+.subp.portfolio .work-item {
+	padding: 25px 0;
 }
 
-.graphic-thumbnail {
-	display: inline;
+.subp.portfolio .image {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#portfolio img {
+  border-radius: 50%;
+  width: 75%;
+  max-width: 200px;
 }
 
 
@@ -325,28 +331,6 @@ table {
 	text-align: center;
 }
 
-#portfolio img {
-	border-radius: 50%;
-}
-
-#portfolio img, #portfolio .description {
-	display: inline-block;
-	vertical-align: top;
-}
-
-#portfolio img {
-	width: 30%;
-}
-
-/* #portfolio .graphic-thumbnail img {
-	width: 25%;
-	padding: 16px;
-} */
-
-#portfolio .description {
-	width: 60%;
-	padding: 20px;
-}
 
 @media only screen and (min-width: 768px) {
   
@@ -357,6 +341,25 @@ table {
 
   h1 {
     font-size: 72px;
+  }
+
+  /* PORTFOLIO PAGE */
+  .subp.portfolio .work-item {
+    display: flex;
+  }
+
+  .subp.portfolio .work-item .image {
+    width: 30%;
+    text-align: left;
+    margin: 0;
+  }
+
+  .subp.portfolio .work-item .image img {
+    width: 80%;
+  }
+
+  .subp.portfolio .work-item .description {
+    width: 70%;
   }
 
 	/* PORTFOLIO DETAILS PAGES */
