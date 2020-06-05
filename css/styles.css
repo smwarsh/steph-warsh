@@ -59,7 +59,7 @@ a {
 
 .navbar-nav {
   flex-direction: row;
-  padding-left: 17px;
+  padding-left: 25px;
 }
 
 nav li {
@@ -363,6 +363,11 @@ button:focus {
 
 
 @media only screen and (min-width: 768px) {
+
+  /* NAVIGATION */
+  nav li {
+    padding: 16px;
+  }
   
   /* HOME PAGE */
   .home-page .page {
