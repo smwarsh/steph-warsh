@@ -18,7 +18,7 @@
 			include 'inc/nav.php';
 		?>
 
-		<div class="container" id="blog">
+		<div class="page" id="blog">
 		
 			<h1>Blog</h1>
 
