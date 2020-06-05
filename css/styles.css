@@ -12,7 +12,8 @@ body {
 
 .content {
 	position: relative;
-	background-color: #00787a;
+  background-color: #00787a;
+  min-height: calc(100% - 56px);
 }
 
 .container,
@@ -250,6 +251,16 @@ button:focus {
 
 button:focus {
   outline-color: #ff6765;
+}
+
+
+/*
+ *
+ * CONFIRMATION PAGE
+ *
+ */
+.home-page-link {
+  margin-bottom: 0;
 }
 
 

@@ -11,18 +11,34 @@
 	
 	</head>
 
-	<body class="contact-page">
-		<div class="container" id="contact">
+	<body class="confirmation">
+
+    <?php 
+			$page = 'contact';
+			include 'inc/nav.php';
+    ?>
+    
+    <div class="content">
+      <div class="page" id="contact">
+          
+        <h1>Contact</h1>
+
+        <div class="white-bg">
+  
+          <div class="contact-form">
+            <p>Your message has been sent.</p>
+          </div><!-- .contact-form -->
+
+          <p class="home-page-link">
+            <a href="contact.php">Back to form</a>
+          </p>
+
+        </div><!-- .white-bg -->
+
+      </div><!-- .page #contact -->
+    </div><!-- .content -->
+
 		
-			<h1>Contact</h1>
-			<p class="home-page-link"><a href="index.php">Home</a></p>
-
-			<div class="contact-form">
-				<p>Your message has been sent.</p>
-			</div><!-- .contact-form -->
-
-
-		</div><!-- .container #contact -->
-	</body><!-- .contact-page -->
+	</body><!-- .confirmation -->
 
 </html>
