@@ -214,6 +214,10 @@ table {
 	text-align: center;
 }
 
+form p:last-of-type {
+  margin-bottom: 0;
+}
+
 .form-element {
   width: 100%;
   max-width: 500px;
@@ -241,7 +245,11 @@ button {
 
 button:hover,
 button:focus {
-  background-color: #ff7876;
+  background-color: #ff6765;
+}
+
+button:focus {
+  outline-color: #ff6765;
 }
 
 
