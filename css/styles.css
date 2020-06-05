@@ -212,7 +212,8 @@ table {
 .form-element {
 	display: inline-block;
 	margin: 10px auto;
-	width: 40%;
+  width: 100%;
+  max-width: 400px;
 	
 
 	/* The following is copied from https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms#Box_model */
