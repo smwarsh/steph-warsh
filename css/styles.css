@@ -20,6 +20,21 @@ body {
 	padding: 0 25px 50px;
 }
 
+h1 {
+  font-size: 64px;
+  font-family: 'Poiret One', sans-serif;
+}
+
+h2 {
+	font-family: 'Sacramento', cursive;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: 'Poiret One', sans-serif;
+}
+
 a {
 	color: #333;
 	text-decoration: underline;
@@ -107,15 +122,11 @@ nav .active a {
 }
 
 #title h1 {
-  font-size: 64px;
   line-height: 0.8;
-  font-family: 'Poiret One', sans-serif;
   margin-bottom: 24px;
 }
 
 #title h2 {
-	font-family: 'Sacramento', sans-serif;
-  font-size: 40px;
   line-height: 0.8;
   margin-bottom: 32px;
 }
@@ -145,8 +156,6 @@ nav .active a {
 	color: #fff;
 	margin: 0;
 	padding: 0;
-	font-size: 96px;
-	font-family: 'Poiret One', sans-serif;
 }
 
 .white-bg {
@@ -158,16 +167,9 @@ nav .active a {
 }
 
 .white-bg h2 {
-	font-size: 56px;
-	font-family: 'Sacramento', sans-serif;
 	border-bottom: 1px solid #333;
 	margin-bottom: 10px;
 	margin-top: 20px;
-}
-
-.white-bg h3 {
-	font-family: 'Poiret One', sans-serif;
-	font-size: 40px;
 }
 
 .sub-page .home-page-link, .home-page-link, .notice {
@@ -315,10 +317,6 @@ table {
 	font-size: 36px;
 }
 
-.subp.warner .white-bg h3 {
-	font-size: 24px;
-}
-
 .subp #portfolio-h1 {
 	font-size: 28px;
 	margin-top: 5px;
@@ -356,7 +354,7 @@ table {
     padding-top: 75px;
   }
 
-  #title h1 {
+  h1 {
     font-size: 72px;
   }
 
@@ -393,20 +391,20 @@ table {
     margin: 0 0 0 auto
   }
 
-  #title h1 {
+  h1 {
     font-size: 96px;
   }
 
-  #title h2 {
+  h2 {
     font-size: 48px;
   }
+
+	h3 {
+		font-size: 28px;
+	}
 
 	/* PORTFOLIO DETAILS PAGES */
 	.subp #portfolio-h1 {
 		font-size: 36px;
-	}
-
-	.subp.warner .white-bg h3 {
-		font-size: 28px;
 	}
 }
