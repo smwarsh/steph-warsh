@@ -74,17 +74,60 @@ nav .active a {
  * HOME PAGE
  *
  */
-
-.img-bg {
-	background-color: #00787a;
-	background-image: url("../img/profile.jpg");
+.home-page .content {
 	height: 100%;
-	position: relative;
+	background-color: #333;
+}
 
-	/* create parallax scrolling effect */ 
+.home-page .content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+	background-image: url("../img/profile.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: cover; 
+  background-size: cover;
+  background-position: left;
+}
+
+.home-page .page {
+  padding-top: 25px;
+  position: relative;
+  z-index: 2;
+}
+
+#title {
+	text-align: center;
+	color: #fff;
+}
+
+#title h1 {
+  font-size: 72px;
+  line-height: 0.8;
+  font-family: 'Poiret One', sans-serif;
+  margin-bottom: 24px;
+}
+
+#title h2 {
+	font-family: 'Sacramento', sans-serif;
+  font-size: 40px;
+  line-height: 0.8;
+  margin-bottom: 32px;
+}
+
+#resources ul {
+	list-style-type: none;
+	margin-top: -8px;
+	padding: 0;
+}
+
+#resources li {
+	display: inline;
+	padding: 5px;
 }
 
 /*
@@ -306,6 +349,11 @@ table {
 }
 
 @media only screen and (min-width: 768px) {
+  
+  /* HOME PAGE */
+  .home-page .page {
+    padding-top: 75px;
+  }
 
 	/* PORTFOLIO DETAILS PAGES */
 	.white-bg .portfolio-h2 {
@@ -323,10 +371,25 @@ table {
 	}
 
 	.page {
-		margin: 0 auto;
+    margin: 0 auto;
+    padding: 0;
 		width: 80%;
 		max-width: 960px;
-	}
+  }
+  
+  /* HOME PAGE */
+  #title {
+    max-width: 600px;
+    margin: 0 0 0 auto
+  }
+
+  #title h1 {
+    font-size: 96px;
+  }
+
+  #title h2 {
+    font-size: 48px;
+  }
 
 	/* PORTFOLIO DETAILS PAGES */
 	.subp #portfolio-h1 {
