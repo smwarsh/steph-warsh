@@ -20,9 +20,9 @@
 
 	</head>
 
-	<body class="subp">
-		<header class="cover"><img src="../img/warner_lg_2.jpg"></header>
-	<div class="container">
+	<body class="subp warner">
+		<header class="cover">&nbsp;</header>
+	<div class="page">
 		
 		<article>
 			<img src="../img/warner_logo.jpg" alt="Warner School of Education logo" class="logo">
@@ -61,6 +61,6 @@
 			</div><!-- .white-bg -->
 		</article>
 		<!--<footer></footer>-->
-	</div><!-- .container -->
+	</div><!-- .page -->
 	</body>
 </html>
