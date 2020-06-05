@@ -36,6 +36,7 @@ a {
  */
 .navbar {
   padding: 0;
+  background-color: #fff !important;
 }
 
 .navbar-nav {
@@ -375,6 +376,13 @@ table {
     padding: 0;
 		width: 80%;
 		max-width: 960px;
+  }
+
+  /* NAVIGATION */
+  .navbar {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 960px;
   }
   
   /* HOME PAGE */
