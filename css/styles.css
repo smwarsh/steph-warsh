@@ -107,7 +107,7 @@ nav .active a {
 }
 
 #title h1 {
-  font-size: 72px;
+  font-size: 64px;
   line-height: 0.8;
   font-family: 'Poiret One', sans-serif;
   margin-bottom: 24px;
@@ -354,6 +354,10 @@ table {
   /* HOME PAGE */
   .home-page .page {
     padding-top: 75px;
+  }
+
+  #title h1 {
+    font-size: 72px;
   }
 
 	/* PORTFOLIO DETAILS PAGES */
