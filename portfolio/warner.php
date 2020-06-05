@@ -23,7 +23,7 @@
 	<body class="subp warner">
 
     <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <ul class="navber-nav">
+      <ul class="navbar-nav">
         <li class="nav-item"><a href="../index.php">Home</a></li>
         <li class="nav-item active"><a href="../portfolio.php">Portfolio</a></li>
         <li class="nav-item"><a href="../contact.php">Contact</a></li>
