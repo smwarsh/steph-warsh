@@ -9,9 +9,13 @@
  */
 
 body {
-	background-color: #00787a;
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
+}
+
+.content {
+	position: relative;
+	background-color: #00787a;
 }
 
 .container,
