@@ -421,6 +421,10 @@ button:focus {
   }
   
   /* HOME PAGE */
+  .home-page .page {
+    padding-top: 150px;
+  }
+
   #title {
     max-width: 600px;
     margin: 0 0 0 auto
