@@ -27,12 +27,13 @@
   
   				<h2>Projects</h2>
   
-  				<div class="work-item">
+  				<div class="work-item thrift">
+            <div class="graphic">&nbsp;</div>
             <div class="image">
               <a href="https://github.com/smwarsh/thrift" target="_blank">
                 <img src="img/dollars_sm.jpg" alt="Thrift Spending Tracker">
               </a>
-            </div>          
+            </div>
             <div class="description">
               <h3>Thrift Spending Tracker</h3>
               <p>JavaScript, HTML templates (Pug/Jade), Git, Node.js, Express, MongoDB</p>
@@ -43,7 +44,8 @@
   					</div><!-- .description -->
   				</div><!-- .work-item -->
   
-  				<div class="work-item">
+  				<div class="work-item challenge">
+            <div class="graphic">&nbsp;</div>
             <div class="image">
               <a href="https://github.com/smwarsh/challenge-channel" target="_blank">
                 <img src="img/challengechannel_sm.jpg" alt="Challenge Channel">
@@ -62,7 +64,8 @@
   
   				<h2>Experience</h2>
   
-  				<div class="work-item">
+  				<div class="work-item gto">
+            <div class="graphic">&nbsp;</div>
             <div class="image">
               <a href="https://greaterthanone.com/" target="_blank">
                 <img src="img/gto-logo.png" alt="Web development at Greater Than One digital agency">
@@ -78,7 +81,8 @@
   					</div><!-- .description -->
   				</div><!-- .work-item -->
   
-  				<div class="work-item">
+  				<div class="work-item warner">
+            <div class="graphic">&nbsp;</div>
             <div class="image">
               <a href="portfolio/warner.php">
                 <img src="img/warner_sm.jpg" alt="Warner">
