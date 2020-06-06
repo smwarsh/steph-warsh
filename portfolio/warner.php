@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Steph Warsh's work as a web development intern at University of Rochester's Warner School of Education in New York" />
 		<meta name="keywords" content="Steph, Warsh, Brooklyn, Cork, Ireland, Rochester, New, York, Digital, Website, Design, Development, Coding, Programming, Front, End" />
 		<meta name="author" content="Steph Warsh" />
