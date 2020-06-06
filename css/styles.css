@@ -355,7 +355,8 @@ button:focus {
 }
 
 .subp #portfolio-h1 {
-	font-size: 28px;
+  color: #333;
+	font-size: 36px;
 	margin-top: 5px;
 	margin-bottom: 12px;
 	text-align: center;
@@ -397,11 +398,6 @@ button:focus {
     width: 70%;
   }
 
-	/* PORTFOLIO DETAILS PAGES */
-	.white-bg .portfolio-h2 {
-		font-size: 40px;
-	}
-
 }
 
 @media only screen and (min-width: 992px) {
@@ -440,10 +436,5 @@ button:focus {
 
 	h3 {
 		font-size: 28px;
-	}
-
-	/* PORTFOLIO DETAILS PAGES */
-	.subp #portfolio-h1 {
-		font-size: 36px;
 	}
 }
