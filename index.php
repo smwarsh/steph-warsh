@@ -27,7 +27,7 @@
   
           <div id="resources">
             <ul>
-              <li><a href="files/StephWarshResumeMar2019.pdf" title="resume" target="_blank"><img src="img/document-128.png" alt="resume" width="40" height="40"></a></li>
+              <li><a href="files/StephWarshCVJan2021.pdf" title="resume" target="_blank"><img src="img/document-128.png" alt="resume" width="40" height="40"></a></li>
               <!-- note to self: remember to add credit when adding external link icon
               <a target="_blank" href="https://icons8.com/icons/set/external-link">External Link icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>  -->
               <li><a href="portfolio.php" title="portfolio"><img src="img/folder-128.png" alt="portfolio" width="40" height="40"></a></li>
