@@ -5,3 +5,5 @@
 .htaccess*
 
 .ftpquota
+
+error_log
