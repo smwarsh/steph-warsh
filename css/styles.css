@@ -303,7 +303,6 @@ button:focus {
 
 .subp.portfolio .work-item .graphic {
   width: 30px;
-  max-height: 200px;
   background-repeat: no-repeat;
   background-size: auto;
 }
